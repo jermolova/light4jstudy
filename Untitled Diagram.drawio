@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T19:56:31.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="t3vIq7HeSRQbHfdqcy5m" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T20:06:15.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hvUzvZZBLGR9HjZFFjO1" version="21.5.0" type="github">
   <diagram name="Page-1" id="hTqZuRmbeiolG7rhy6ji">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="B16wtnREUrntUqWMcMPI-3" value="pod 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="352" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B16wtnREUrntUqWMcMPI-4" value="policy-service&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(External load balancer)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;http://34.148.184.196/80" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B16wtnREUrntUqWMcMPI-4" value="policy-service&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(External load balancer)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;http://xx.xxx.xxx.xxx/80" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="242" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B16wtnREUrntUqWMcMPI-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="B16wtnREUrntUqWMcMPI-2">
@@ -59,7 +59,7 @@
           <mxGeometry x="410" y="242" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B16wtnREUrntUqWMcMPI-20" value="Cluster:&amp;nbsp;levio-hkt-cluster" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="340" y="150" width="190" height="30" as="geometry" />
+          <mxGeometry x="60" y="190" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B16wtnREUrntUqWMcMPI-27" value="Clients: Postman, Curl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="30" width="120" height="60" as="geometry" />
@@ -73,8 +73,71 @@
             <mxPoint x="420" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B16wtnREUrntUqWMcMPI-35" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="40" y="140" width="750" height="660" as="geometry" />
+        <mxCell id="B16wtnREUrntUqWMcMPI-36" value="mysql-dev&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(External load balancer)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;http://35.231.56.152:3306" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-37" value="pod 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="550" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="B16wtnREUrntUqWMcMPI-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="510" as="sourcePoint" />
+            <mxPoint x="485" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-41" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="B16wtnREUrntUqWMcMPI-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="350" as="sourcePoint" />
+            <mxPoint x="320" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="B16wtnREUrntUqWMcMPI-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="440" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-43" value="jenkins(External load balancer)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="630" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-44" value="pod 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="B16wtnREUrntUqWMcMPI-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="690" as="sourcePoint" />
+            <mxPoint x="320" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-46" value="argocd server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="630" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-47" value="pod 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="730" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="B16wtnREUrntUqWMcMPI-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="690" as="sourcePoint" />
+            <mxPoint x="660" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-50" value="Swagger&lt;br&gt;/swagger-ui/index.html" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="530" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-52" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="90" as="sourcePoint" />
+            <mxPoint x="630" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-53" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="90" as="sourcePoint" />
+            <mxPoint x="240" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B16wtnREUrntUqWMcMPI-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="730" height="620" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
