@@ -1,9 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T18:02:36.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.1" etag="zOrIdLLMijuPAdbWtKxX" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T18:34:02.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="c1GLOAbYN5wHKVexkD6p" version="21.5.1" type="github">
   <diagram name="Page-1" id="w43eUEoN5GlZ0LErTuPT">
-    <mxGraphModel>
+    <mxGraphModel dx="1036" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-1" value="TO-DO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-2" value="IN-PROGRESS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-3" value="IN-REVIEW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-4" value="DONE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ii42JYJrX4lIDhYgKsCn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="245" as="sourcePoint" />
+            <mxPoint x="250" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ii42JYJrX4lIDhYgKsCn-2" target="Ii42JYJrX4lIDhYgKsCn-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="245" as="sourcePoint" />
+            <mxPoint x="400" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ii42JYJrX4lIDhYgKsCn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="245" as="sourcePoint" />
+            <mxPoint x="550" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-9" value="Normal Flow" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="72" y="48" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-11" value="PO conducts kick-off meeting to confirm requirement" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="105" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-13" value="An Assignee moves story to this state. &lt;br&gt;An Assignee requests a review by peers (PR, shoulder-check) and then conduct a take-down meeting." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="140" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-15" value="Take-down meeting is done. If&amp;nbsp;PO accepts the work, he/she moves the story to DONE" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="95" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-16" value="After kick-off meeting, an Assignee moves story this state" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-17" value="TO-DO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-18" value="IN-PROGRESS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-19" value="IN-REVIEW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ii42JYJrX4lIDhYgKsCn-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="390" as="sourcePoint" />
+            <mxPoint x="250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ii42JYJrX4lIDhYgKsCn-18" target="Ii42JYJrX4lIDhYgKsCn-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="400" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-24" value="ON-HOLD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ii42JYJrX4lIDhYgKsCn-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="470" as="sourcePoint" />
+            <mxPoint x="150" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="470" as="sourcePoint" />
+            <mxPoint x="300" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ii42JYJrX4lIDhYgKsCn-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="470" as="sourcePoint" />
+            <mxPoint x="460" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-28" value="Blocked Flow" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="306" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-29" value="DONE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ii42JYJrX4lIDhYgKsCn-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-32" value="CANCEL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ii42JYJrX4lIDhYgKsCn-34" value="End state in case story is not needed any more" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="120" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
